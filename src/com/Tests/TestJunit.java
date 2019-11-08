@@ -102,7 +102,7 @@ public class TestJunit {
 	@Test
 	public void testZugKomposition2() {
 		init();
-		System.out.println(z.print());
+		//System.out.println(z.print());
 		assertEquals("loko01 <-- gWagon04 <-- pWagon01 "
 				+ "<-- gWagon05 <-- pWagon02", z.print());
 	}
